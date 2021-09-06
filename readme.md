@@ -30,7 +30,7 @@ Run `python ./main.py` and once it has completed you should now see `headings.tx
 - Add a table named `lse_instruments` and create the respective columns from headings.txt
 - Note:
     - The `TIDM` column should be set as the `primary key`
-    - For simplicity add all the column's as a `text` datatype and allow each of them to be `nullable`
+    - For simplicity add all of the columns as a `text` datatype and allow each of them to be `nullable`
 
 
 ## Seed Supabase table with extracted spreadsheet data
