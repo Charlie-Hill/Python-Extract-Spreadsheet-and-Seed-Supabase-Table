@@ -4,14 +4,14 @@ from pathlib import Path
 import json
 
 headings = []
-headingsRow = 8
-instrumentsStartRow = 9
-instrumentsEndRow = 4248
+headingsRow = 8 # TODO: Extract this to config or env file?
+instrumentsStartRow = 9  # TODO: Automatically find first row
+instrumentsEndRow = 4268 # TODO: Automatically find last row
 
 def main():
     # Load xlsx file
-    print("Loading Instrument list_14.xlsx...")
-    xlsx_file = Path('Instrument list_14.xlsx')
+    print("Loading Instrument list_15.xlsx...")
+    xlsx_file = Path('Instrument list_15.xlsx')
     wb_obj = openpyxl.load_workbook(xlsx_file)
 
     # Set active sheet
