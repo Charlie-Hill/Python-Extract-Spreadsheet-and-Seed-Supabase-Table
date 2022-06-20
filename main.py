@@ -6,16 +6,17 @@ import json
 headings = []
 headingsRow = 8 # TODO: Extract this to config or env file?
 instrumentsStartRow = 9  # TODO: Automatically find first row
-instrumentsEndRow = 4356 # TODO: Automatically find last row
+instrumentsEndRow = 4462 # TODO: Automatically find last row
 
 def main():
     # Load xlsx file
-    print("Loading Instrument list_19.xlsx...")
-    xlsx_file = Path('Instrument list_19.xlsx')
+    print("Loading Instrument list_25.xlsx...")
+    xlsx_file = Path('Instrument list_25.xlsx')
     wb_obj = openpyxl.load_workbook(xlsx_file)
 
-    # Set active sheet
+    # Set active sheet to 1.0 All Equity
     print("Setting active sheet...")
+    wb_obj.active = 0
     sheet = wb_obj.active
 
     # Load column headings
