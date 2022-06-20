@@ -1,7 +1,7 @@
 # Python XLSX extractor & Supabase table seed example
-This project is an example of how you can use Python to extract data from an Excel spreadsheet (.xlsx) and then seed a Supabase database table using the extracted data.
+This project is a crude example of how you can use Python to extract data from an Excel spreadsheet (.xlsx) and then seed a Supabase database table with the extracted data.
 
-The spreadsheet example used in this project is equity instrument data from the [London Stock Exchange](https://www.londonstockexchange.com/reports?tab=instruments).
+The spreadsheet example used in this project is equity instrument data from the [London Stock Exchange](https://www.londonstockexchange.com/reports?tab=instruments). Simply put, the data is list of tradable securities (such as stocks, bonds & ETFs) on the London Stock Exchange.
 
 <br />
 
