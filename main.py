@@ -11,7 +11,7 @@ instrumentsEndRow = 4532 # TODO: Automatically find last row
 def main():
     # Load xlsx file
     print("Loading Instrument list_30.xlsx...")
-    xlsx_file = Path('Instrument list_30.xlsx')
+    xlsx_file = Path('./data/lse/Instrument list_30.xlsx')
     wb_obj = openpyxl.load_workbook(xlsx_file)
 
     # Set active sheet to 1.0 All Equity
